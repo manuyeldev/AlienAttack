@@ -14,3 +14,4 @@ stretch_mode = 1
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_cb4mf")]
 position = Vector2(59, 348)
+motion_mode = 1
