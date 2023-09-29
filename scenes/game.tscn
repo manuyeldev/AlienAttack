@@ -33,4 +33,5 @@ collision_mask = 2
 position = Vector2(12, 356)
 shape = SubResource("RectangleShape2D_ckd6m")
 
+[connection signal="took_damage" from="Player" to="." method="_on_player_took_damage"]
 [connection signal="area_entered" from="Deathzone" to="." method="_on_death_zone_area_entered"]
